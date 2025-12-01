@@ -704,8 +704,8 @@ end_form_submit_button.addEventListener("click", (e) => {
       let match_control_idx = control_set_pl
         .map((elm) => elm["word"])
         .indexOf(observation.stimuli);
-      console.log(`stim: ${observation.stimuli}`);
-      console.log(`idx: ${match_control_idx}`);
+      // console.log(`stim: ${observation.stimuli}`);
+      // console.log(`idx: ${match_control_idx}`);
       // console.log(`word: ${}`);
       new_full_entry = {
         id: participantIDnow,
@@ -760,7 +760,7 @@ end_form_submit_button.addEventListener("click", (e) => {
 
   let full_csv = objToCSV(full_df);
   let control_csv = objToCSV(control_form);
-  console.log(full_csv);
+  // console.log(full_csv);
   // console.log(control_csv);
 
   let encURI = encodeURI(full_csv);
@@ -828,3 +828,4 @@ document.getElementById("participant_age").addEventListener(
   },
   { capture: true }
 );
+
