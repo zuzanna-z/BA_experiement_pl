@@ -551,7 +551,6 @@ answer_block.addEventListener("click", (e) => {
     }
   }
   if (answer_count >= 50) {
-    control_form.push(new_control_entry);
     stage_control = "end_form";
     answer_block.classList.toggle("hidden");
     main_button.getElementsByTagName("button")[0].innerText = "Start";
@@ -823,6 +822,7 @@ document.getElementById("participant_age").addEventListener(
   },
   { capture: true }
 );
+
 
 
 
