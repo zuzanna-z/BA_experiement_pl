@@ -508,7 +508,7 @@ answer_block.addEventListener("click", (e) => {
     e.target.checked = false;
     return;
   }
-  if (first_instance) {
+  if (first_instance & answer_count === 1) {
     answer_count--
     first_instance = false;
   }
