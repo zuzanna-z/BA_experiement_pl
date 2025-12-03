@@ -166,7 +166,7 @@ const en_pseudowords = [
 'mas',
 'san',
 'mun',
-'mon',
+'mons',
 'prouple',
 'treaple',
 'troomle',
@@ -177,7 +177,7 @@ const en_pseudowords = [
 'giy',
 'gub',
 'gug',
-'tim',
+'mim',
 'til',
 'tir',
 'tum',
@@ -206,4 +206,5 @@ const en_pseudowords = [
 'atusser',
 'atuager',
 'aturler',
+
 ]
