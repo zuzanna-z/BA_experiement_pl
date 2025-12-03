@@ -463,7 +463,7 @@ let term_counter_control = 0;
 
 const run_control = (idx) => {
   // console.log("control_running", idx);
-  // console.log(control_set_pl[idx]);
+  console.log(control_set_pl[idx]);
 
   // console.log(idx);
   item = control_set_pl[idx];
@@ -822,4 +822,5 @@ document.getElementById("participant_age").addEventListener(
   },
   { capture: true }
 );
+
 
