@@ -632,7 +632,7 @@ main_button.addEventListener("click", (e) => {
     main_button.classList.toggle("hidden");
     document.getElementById("sub_text_container").classList.toggle("hidden");
     stage_control = "control_condition";
-    run_control();
+    run_control(0);
   }
 
   if (stage_control === "end_form") {
